@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d521048e-2529-416c-a87c-ea3d4570d62b" name="Home@HOME 2009-03-29 12:24:01" runUser="Home\Home" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="2235a46d-a3ac-4df8-b514-03de6f486fa8">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Home\Desktop\SampleETLJob\TestResults\Home_HOME 2009-03-29 12_24_01">
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\log4net.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Rhino.Commons.Clr.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Rhino.Commons.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\FileHelpers.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\SampleETLJob\bin\Debug\SampleETLJob.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Boo.Lang.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Rhino.Etl.Core.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T12:24:03.3602674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Windsor' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T12:24:03.3612674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.MicroKernel' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T12:24:03.3612674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Core' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T12:24:03.3612674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Boo.Lang.Compiler' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T12:24:03.3612674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Rhino.Commons.Binsor' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-03-29T12:24:01.9312674-05:00" queuing="2009-03-29T12:24:03.3722674-05:00" start="2009-03-29T12:24:03.5732674-05:00" finish="2009-03-29T12:24:04.3052674-05:00" />
+  <TestDefinitions>
+    <UnitTest name="CanReadFile" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="dec937e5-7636-32d9-2630-9c1dc71dae31">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename=".\SampleData\" />
+      </DeploymentItems>
+      <Execution id="3e263ba6-25f0-4660-be26-fb1fb94a222e" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.UserNameReadTest, Test" name="CanReadFile" />
+    </UnitTest>
+    <UnitTest name="CanJoinFiles" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="b98621a5-43ec-b9eb-8be3-a88e94e45bbe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a09c8759-0761-447e-8b62-aaf0b14bd36f" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.JoinUserRecordsTest, Test" name="CanJoinFiles" />
+    </UnitTest>
+    <UnitTest name="CanReadFile" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="8b11f7aa-8765-7ccd-6121-c319bf561941">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d5f36764-ac4f-4133-9173-ba55b1345888" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.UserAddressReadTest, Test" name="CanReadFile" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8b11f7aa-8765-7ccd-6121-c319bf561941" executionId="d5f36764-ac4f-4133-9173-ba55b1345888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b98621a5-43ec-b9eb-8be3-a88e94e45bbe" executionId="a09c8759-0761-447e-8b62-aaf0b14bd36f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dec937e5-7636-32d9-2630-9c1dc71dae31" executionId="3e263ba6-25f0-4660-be26-fb1fb94a222e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d5f36764-ac4f-4133-9173-ba55b1345888" testId="8b11f7aa-8765-7ccd-6121-c319bf561941" testName="CanReadFile" computerName="HOME" duration="00:00:00.1659573" startTime="2009-03-29T12:24:03.6792674-05:00" endTime="2009-03-29T12:24:04.1692674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected count of 4 not same as actual: 0</Message>
+          <StackTrace>   at Test.BaseTestClass.AreSameRows(IList`1 expected, IList`1 actual) in C:\Users\Home\Desktop\SampleETLJob\Test\BaseTestClass.cs:line 16
+   at Test.UserAddressReadTest.CanReadFile() in C:\Users\Home\Desktop\SampleETLJob\Test\UserAddressReadTest.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a09c8759-0761-447e-8b62-aaf0b14bd36f" testId="b98621a5-43ec-b9eb-8be3-a88e94e45bbe" testName="CanJoinFiles" computerName="HOME" duration="00:00:00.0271828" startTime="2009-03-29T12:24:04.2022674-05:00" endTime="2009-03-29T12:24:04.2322674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at Test.JoinUserRecordsTest.CanJoinFiles() in C:\Users\Home\Desktop\SampleETLJob\Test\JoinUserRecordsTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e263ba6-25f0-4660-be26-fb1fb94a222e" testId="dec937e5-7636-32d9-2630-9c1dc71dae31" testName="CanReadFile" computerName="HOME" duration="00:00:00.0018726" startTime="2009-03-29T12:24:04.2342674-05:00" endTime="2009-03-29T12:24:04.2452674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected count of 4 not same as actual: 0</Message>
+          <StackTrace>   at Test.BaseTestClass.AreSameRows(IList`1 expected, IList`1 actual) in C:\Users\Home\Desktop\SampleETLJob\Test\BaseTestClass.cs:line 16
+   at Test.UserNameReadTest.CanReadFile() in C:\Users\Home\Desktop\SampleETLJob\Test\UserNameReadTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

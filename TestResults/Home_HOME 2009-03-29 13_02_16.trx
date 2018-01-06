@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f3ba1054-7587-4c4c-b07a-2424e8445860" name="Home@HOME 2009-03-29 13:02:16" runUser="Home\Home" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="2235a46d-a3ac-4df8-b514-03de6f486fa8">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Home\Desktop\SampleETLJob\TestResults\Home_HOME 2009-03-29 13_02_16">
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\log4net.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Rhino.Commons.Clr.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\SampleETLJob\bin\Debug\SampleETLJob.exe" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\FileHelpers.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Rhino.Commons.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Boo.Lang.dll" />
+      <DeploymentItem filename="C:\Users\Home\Desktop\SampleETLJob\Reference\Rhino.Etl.Core.dll" />
+    </Deployment>
+    <TestTypeSpecific>
+      <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+        <Browser name="Internet Explorer 7.0">
+          <Headers>
+            <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+            <Header name="Accept" value="*/*" />
+            <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+            <Header name="Accept-Encoding" value="GZIP" />
+          </Headers>
+        </Browser>
+        <Network Name="LAN" BandwidthInKbps="0" />
+      </WebTestRunConfiguration>
+    </TestTypeSpecific>
+  </TestRunConfiguration>
+  <ResultSummary outcome="Warning">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T13:02:16.6442674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Windsor' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T13:02:16.6442674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.MicroKernel' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T13:02:16.6442674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.Core' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T13:02:16.6442674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Boo.Lang.Compiler' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="HOME" outcome="Warning" timestamp="2009-03-29T13:02:16.6442674-05:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Rhino.Commons.Binsor' directly or indirectly referenced by the test container 'c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-03-29T13:02:16.1672674-05:00" queuing="2009-03-29T13:02:17.2282674-05:00" start="2009-03-29T13:02:17.4812674-05:00" finish="2009-03-29T13:02:18.2412674-05:00" />
+  <TestDefinitions>
+    <UnitTest name="CanReadFile" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="dec937e5-7636-32d9-2630-9c1dc71dae31">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename=".\SampleData\names.txt" outputDirectory="SampleData" />
+      </DeploymentItems>
+      <Execution id="7b68895f-67b3-4b7b-bd46-c92c4101a8bd" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.UserNameReadTest, Test" name="CanReadFile" />
+    </UnitTest>
+    <UnitTest name="CanWriteFile" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="899df18d-2157-d4a8-83a6-9820a50029dd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="47743629-7a46-45b3-ad64-b0028921b150" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.UserFullWriteTest, Test" name="CanWriteFile" />
+    </UnitTest>
+    <UnitTest name="CanJoinFiles" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="b98621a5-43ec-b9eb-8be3-a88e94e45bbe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename=".\SampleData\addresses.txt" outputDirectory="SampleData" />
+        <DeploymentItem filename=".\SampleData\names.txt" outputDirectory="SampleData" />
+      </DeploymentItems>
+      <Execution id="6500aa7f-b82a-4a35-b1c1-88a52794cc5c" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.JoinUserRecordsTest, Test" name="CanJoinFiles" />
+    </UnitTest>
+    <UnitTest name="CanReadFile" storage="c:\users\home\desktop\sampleetljob\test\bin\debug\test.dll" id="8b11f7aa-8765-7ccd-6121-c319bf561941">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename=".\SampleData\addresses.txt" outputDirectory="SampleData" />
+      </DeploymentItems>
+      <Execution id="cf2bb687-fc4c-4ae3-b92f-b922a7113259" />
+      <TestMethod codeBase="C:\Users\Home\Desktop\SampleETLJob\Test\bin\Debug\Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.UserAddressReadTest, Test" name="CanReadFile" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="899df18d-2157-d4a8-83a6-9820a50029dd" executionId="47743629-7a46-45b3-ad64-b0028921b150" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b11f7aa-8765-7ccd-6121-c319bf561941" executionId="cf2bb687-fc4c-4ae3-b92f-b922a7113259" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b98621a5-43ec-b9eb-8be3-a88e94e45bbe" executionId="6500aa7f-b82a-4a35-b1c1-88a52794cc5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dec937e5-7636-32d9-2630-9c1dc71dae31" executionId="7b68895f-67b3-4b7b-bd46-c92c4101a8bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="47743629-7a46-45b3-ad64-b0028921b150" testId="899df18d-2157-d4a8-83a6-9820a50029dd" testName="CanWriteFile" computerName="HOME" duration="00:00:00.1644769" startTime="2009-03-29T13:02:17.5302674-05:00" endTime="2009-03-29T13:02:18.0512674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf2bb687-fc4c-4ae3-b92f-b922a7113259" testId="8b11f7aa-8765-7ccd-6121-c319bf561941" testName="CanReadFile" computerName="HOME" duration="00:00:00.0219138" startTime="2009-03-29T13:02:18.0772674-05:00" endTime="2009-03-29T13:02:18.1042674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6500aa7f-b82a-4a35-b1c1-88a52794cc5c" testId="b98621a5-43ec-b9eb-8be3-a88e94e45bbe" testName="CanJoinFiles" computerName="HOME" duration="00:00:00.0190059" startTime="2009-03-29T13:02:18.1102674-05:00" endTime="2009-03-29T13:02:18.1322674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7b68895f-67b3-4b7b-bd46-c92c4101a8bd" testId="dec937e5-7636-32d9-2630-9c1dc71dae31" testName="CanReadFile" computerName="HOME" duration="00:00:00.0017243" startTime="2009-03-29T13:02:18.1382674-05:00" endTime="2009-03-29T13:02:18.1452674-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
